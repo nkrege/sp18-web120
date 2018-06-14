@@ -2,16 +2,18 @@
 <!-- End header.php include here! -->  
 
 <!-- AIA RESPONSIVE TABLES -->
-                <p>We'll wireframing a googledoc here.</p>
+                <div class='embed-container'>
+                    <iframe src='https://docs.google.com/document/d/e/2PACX-1vTKj3IWrqdAQIc9OeqolIIyj9Fd2iT4fPsdFPdxgTo80yeeKgeTewDJhJfJaUl6qO2s2UHuCF3gU155/pub?embedded=true'></iframe>
+                </div>
             </section>
 <!-- END LEFT COL -->
 
 <!-- START RIGHT COL -->
             <aside>
-                <h3>Provide 2 resource links to wireframing resources you like</h3>
+                <h3>Wireframing resources</h3>
                     <ul>
-                        <li>wireframe article</li>
-                        <li>waireframe application</li>
+                        <li><a href="https://webdesign.tutsplus.com/articles/a-beginners-guide-to-wireframing--webdesign-7399">A Beginners guide to Wireframing</a></li>
+                        <li><a href="https://wireframe.cc/">https://wireframe.cc/</a></li>
                     </ul>
             </aside>
 <!-- END RIGHT COL -->

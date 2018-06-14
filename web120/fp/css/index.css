@@ -1,0 +1,698 @@
+html {
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+    overflow: auto;
+}
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    margin: 0;
+}
+
+
+html#services {
+    background-image: url(../images/service2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: auto;
+}
+html#services video {
+    display: none;
+}
+
+html div.indexlogo {
+    display: none;
+}
+html#index div.indexlogo {
+    display: contents;
+    height: 100%;
+    line-height: 100%;
+    text-align: center;
+    bottom: 0;
+}
+html#index div.indexlogo span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    padding-top: 16em;
+}
+
+html#media {
+    background-image: url(../images/room.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: auto;
+}
+html#media video {
+    display: none;
+}
+
+html#home {
+    background-image: url(../images/room.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: auto;
+}
+html#home video {
+    display: none;
+}
+
+html#location {
+    background-image: url(../images/officefront.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: auto;
+}
+
+html#location video {
+    display: none;
+}
+
+html#contact {
+    background-image: url(../images/beachbackground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: auto;
+}
+
+html#terms {
+    background-image: url(../images/beachbackground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: auto;
+}
+
+header.termsheader {
+    background-image: url(../images/beach.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;     
+}
+
+header.homeheader {
+    background-image: url(../images/beach.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header.servicesheader {
+    background-image: url(../images/beach.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header.locationheader {
+    background-image: url(../images/beach.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header.mediaheader {
+    background-image: url(../images/beach.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;    
+}
+
+header.contactheader {
+    background-image: url(../images/beach.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;     
+}
+
+header.indexheader {
+    background-image: url(../images/beach.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;     
+}
+
+
+div.wrapper {
+    background-color: rgba(0,0,0,0);
+    color: #000;
+    width: 90%;
+    margin:auto;
+    overflow: auto;
+    text-align: center;
+    display: block;
+}
+
+section#indexlogo img {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+video {
+    overflow:hidden;
+}
+
+p {
+    margin-left: 1em;
+    margin-right: 1em;
+    z-index: 999;
+}
+
+/*h1, h2, h3 {
+    margin-left: .5em;
+}*/
+h2.pageID {
+    color: #000;
+    font-size: 3em;
+    text-align: center;
+    margin-top: .5em;
+    margin: auto;
+    position: relative;
+}
+div.lc {
+    position: relative;
+}
+div.lc h2 p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+section.pageID img {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+}
+
+section {
+    background: rgba(255,255,255,0.65);
+    text-align: left;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+#contact section {
+    display: none;
+}
+
+#contact section.contactForm {
+    display: contents;
+}
+
+a {
+    color:#fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color:#fff;
+    text-decoration: none;
+}
+header {
+    text-align: center;
+}
+
+    
+div.logo {
+    padding-top: 2em;
+    padding-bottom: 0;
+    }
+
+html#home h2.pageID {
+    display: none;
+}
+
+div.hours {
+    text-align: center;
+}
+div.hours h2 {
+    margin-bottom: 0;
+}
+div.hours p {
+    margin-top: .5em;
+}
+
+div.hours {
+    padding-bottom: 1em;
+}
+
+.pageID{
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 1em;
+    font-size: 2.5em;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fb {
+    margin: 0;
+}
+
+/* End GLOBAL RULES */
+
+/* START EMBEDRESPONSIVELY.COM RULES */
+
+div.embed-container { 
+    position: relative; 
+    padding-bottom: 40%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 65%; 
+    margin: auto;
+}
+
+div.embed-container iframe, .embed-container object, .embed-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+
+footer {
+    text-align: center;
+    clear: both;
+    background-color: rgba(0,0,0,0);
+    color: #fff;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    width: 100%;
+    position:relative;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+section#indexlogo {
+    background: rgba(0,0,0,0);
+}
+
+#index section {
+    display: none;
+}
+
+.contactForm {
+    float: none;
+    width: 95%;
+    margin: auto;
+    background: rgba(0,0,0,0);
+}
+/* Start RESPONSIVE RULES */
+
+/* Desktop */
+@media all and (min-width:901px) {
+    /*Left column*/
+    div.wrapper {
+        width: 80%;
+    }
+    
+    div.tnc {
+        padding-left: 1em;
+    }
+    
+    aside {
+        float: right;
+        width: 22%;
+        background-color: rgba(0,0,0,.5);
+        color: #fff;
+        margin-top: 1em;
+        height: 100%;
+    }
+    img.drgallant {
+        width: 15%;
+        height: auto;
+        float: left;
+        padding: 1em;
+    }
+    
+    section {
+        overflow: hidden;
+    }
+    
+    .text-container {
+        overflow: hidden;
+    }
+    .text-container2 {
+        overflow: hidden;
+    }
+    .text-container3 {
+        overflow: hidden;
+    }
+    
+    .text-container img {
+        width: 20%;
+        float: right;
+        margin: 0 0 10px 10px;
+        padding-right: 1em;
+    }
+    .text-container2 img {
+        width: 20%;
+        float: right;
+        margin: 0 0 10px 10px;
+        clear: both;
+        padding-right: 1em;
+    }
+    .text-container3 img {
+        width: 20%;
+        float: right;
+        margin: 0 0 10px 10px;
+        clear: both;
+        padding-right: 1em;
+    }
+    #contact aside {
+        float: none;
+        width: 60%;
+        background-color: rgba(0,0,0,.5);
+        color: #fff;
+        position: relative;
+        height: 100%;
+        margin: auto;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        
+    }
+    
+    #index aside {
+        display: none;
+    }
+    
+    #index footer {
+        text-align: center;
+        clear: both;
+        background-color: rgba(0,0,0,0);
+        color: #fff;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        position: absolute;
+        bottom: 0;
+        width: 80%;
+        margin: auto;
+    }
+    
+    header.contactheader {
+        background: rgba(0,0,0,0);
+    }
+    
+    header.termsheader {
+        background: rgba(0,0,0,0);
+    }
+    
+    header.indexheader {
+        background: rgba(0,0,0,0);
+    }
+    
+    div.logoindex {
+        display: none;
+    }
+    div#mobileParagraph {
+        display: none;
+    }
+    div.indexlogo {
+        background: rgba(0,0,0,0);
+        vertical-align: middle;
+        padding-top: 16em;
+        top: 50%;
+        left: 50%;
+    }
+    #index div.logo {
+        display: none;
+    }
+}
+
+/* CALENDAR RULES FOR PHONE */
+@media all and (max-width:900px) {
+    /* Show Agenda View Calendar */
+    div.embed-container.agenda-view{
+        display: block;
+    }
+    
+    /* Hide Month View Calendar */
+    div.embed-container.month-view {
+        display:none;
+    }
+}
+
+/* Phone */
+@media all and (max-width:900px) {
+    div.wrapper {
+        width: 100%;
+        }
+    html {
+        background: #000;
+        height: 100%;
+        overflow: scroll;
+        }
+    html#index {
+        font-family: 'Open Sans', sans-serif;
+        background-image: url("../images/beachbackground.png");
+        background-position: top, center;
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: 100%;
+        }
+    Video {
+        display: none;
+    }
+    
+    body{
+        background-color: rgba(0,0,0,.65);
+        width: 100%;
+        margin: auto;
+        }
+    
+    div.logo img {
+        display: block;
+        margin: auto;
+        }
+    
+    h2 {
+        text-align: center;
+        margin: auto;
+        }
+    div.wrapper header {
+        background-color: rgba(0,0,0,0);
+        color: #fff;
+        padding-top: 0;
+        margin-top: 0;
+        }
+    
+    img.drgallant {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    section {
+        text-align: center;
+        margin-top: 0;
+        padding-top: 0;
+        background: rgba(255,255,255,.65);
+    }
+    .text-container img {
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+    .text-container2 img {
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+    .text-container3 img {
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+    div.embed-container { 
+        position: relative; 
+        padding-bottom: 40%; 
+        height: 0; 
+        overflow: hidden; 
+        max-width: 100%; 
+        margin: auto;
+    }
+    aside p, strong, h2 {
+        color: #fff;
+    }
+    
+    html#index div.indexlogo span a{
+        display: none;
+    }
+    html#index div.indexlogo span {
+        display: none;
+    }
+    
+    a {
+        color: #fff;
+    }
+    
+    #contact aside {
+        float: none;
+        width: 100%;
+        background-color: rgba(0,0,0,.5);
+        color: #fff;
+        position: relative;
+        height: 100%;
+        margin: auto;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        overflow: auto;
+    }
+    
+    #contact aside h2 p {
+        padding left: 1em;
+        padding-right: 1em;
+    }
+    div#mobileParagraph {
+        padding-top: 1em;
+    }
+    
+}
+
+.form-style-8 input[type="text"],
+.form-style-8 input[type="date"],
+.form-style-8 input[type="datetime"],
+.form-style-8 input[type="email"],
+.form-style-8 input[type="number"],
+.form-style-8 input[type="search"],
+.form-style-8 input[type="time"],
+.form-style-8 input[type="url"],
+.form-style-8 input[type="password"],
+.form-style-8 textarea,
+.form-style-8 select 
+    {
+        color: #fff;
+        background-color: rgba(0,0,0,0);
+        cursor: pointer;
+}
+
+form > div {
+    margin: 1em;
+}
+
+input, textarea, select {
+    width: 95%;
+    margin: 0;
+}
+
+textarea {
+    font-family: 'Open Sans', sans-serif;
+    height: 150px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 5px;
+    margin: 0 0 5px;
+}
+
+input {
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 5px;
+    margin: 0 0 5px;
+}
+input.button {
+    width: 100%;
+    margin: auto;
+}
+
+select {
+    margin-top: .5em;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: rgba(0,0,0,0.5);
+}
+
+::placeholder {
+    color: #fff;
+}
+
+h1.name {
+    z-index: 999;
+}
+
+option {
+    color: #000;
+}
+
+div.gallery figure img {
+    width: 100%;
+    height: auto;
+}
+figure {
+    display: inline-block;
+    margin: 1em;
+    /*border: 1px solid #000;*/ /* width style color */    
+}
+
+div.gallery {
+    text-align: center;
+}
+
+.lc {
+    text-align: left;
+}
+
+footer#disclaimer {
+    text-align: center;
+    clear: both;
+    background-color: rgba(0,0,0,0);
+    color: #fff;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    position: relative;
+    bottom: 0;
+    width: 95%;
+}
+
+/* End RESPONSIVE RULES */
